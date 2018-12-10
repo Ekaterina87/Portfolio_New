@@ -1,0 +1,9 @@
+body { margin: 0; }
+
+.row { background-color: #01579b; }
+
+.container {
+    width: 800px;
+    margin: 16px auto;
+    background-color: white;
+}

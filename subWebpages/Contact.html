@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="../css/site.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Contact Me</title>
+</head>
+<body>
+  <div class="footer container mw-100">
+
+      <nav class="navbar navbar-expand-sm">
+
+        <div class="navbar-brand" href="#"></div>
+
+        <button class="navbar-toggler bg-secondary navbar-secondary" type="button" data-toggle="collapse" data-target="#collapseTab">
+
+          <span class="navbar-toggler-icon"></span>    <!-- Creates the hamburger  -->
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapseTab">
+
+          <div class="navbar-nav" id="collapseTab">
+
+            <a href="../Index.html" class="nav-item nav-link active">Home</a>
+            <a href="../subWebpages/AboutMe.html" class="nav-item nav-link">About Me</a>
+            <a href="../subWebpages/CodingSkills.html" class="nav-item nav-link">Coding Skills</a>
+            <a href="../subWebpages/Projects.html" class="nav-item nav-link">Projects</a>
+            <a href="../subWebpages/Contact.html" class="nav-item nav-link">Contact</a>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+
+
+<div class="mainBody" id="contact">
+    <a href="../subWebpages/Contact.html">
+        <img src="../images/contactMe.jpg" style="width: 100%; height: 30em"/>
+    </a>
+    <br/>
+    <br/>
+<center><button type='button' class='btn btn-warning' data-toggle='popover' data-trigger='hover'
+  title='Text me' data-content='Cell: 917-780-9316'>Contact me</button></center>
+  <br/>
+    <div class="containerForForm">
+        <form name="Contact" method="post" action="../phpScripts/contactUsForm.php">
+            <label for="fullName">Full Name:</label>
+            <input type="text" name="fullName" placeholder="Enter your full name.."/>
+
+            <label for="email">Email:</label>
+            <input type="text" name="email" placeholder="Enter your email.."/>
+
+            <label for="phone">Phone Number: </label>
+            <input type="text" name="phone" placeholder="Enter your phone number.."/>
+
+            <label for="subject">Subject: </label>
+            <input type="text" name="subject" placeholder="Enter the Subject of your email.."/>
+
+            <label for="message">Message:</label>
+            <textarea  name="message" maxlength="1000" cols="20" rows="3" placeholder="Enter your message here.."></textarea>
+
+            <button type="submit" name="x">Submit Your Form </button>
+
+        </form>
+    </div>
+
+</div>
+
+<div class="footer">
+<p>
+    My Portfolio_New &copy;2018
+</p>
+
+</div>
+
+
+<script src="../site.js"></script>
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#9651;</button>
+
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!--create toggle script for the popover-->
+<script>
+$(function(){
+$('[data-toggle="popover"]').popover({placement:'right'});
+});
+</script>
+</body>
+</html>

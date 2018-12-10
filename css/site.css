@@ -1,0 +1,209 @@
+body { background-color: white; }
+
+.header {
+width:100%;
+    height: 5em;
+    background-color: grey;
+    text-align: center;
+    padding: 1em;
+	color: white;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: grey;
+    margin: auto;
+    padding: 1em;
+    width:100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    font-size: 18px;
+    padding: 8px 12px;
+    text-decoration: none;
+    margin: auto;
+}
+
+.navbar a:hover {
+    background-color: #F5F5F5;
+    color: #185992;
+    font-size: 20px;
+}
+
+
+
+.footer {
+    background-color: grey;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    width: 100%;
+}
+
+
+
+
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+/*Index Page*/
+
+
+
+
+.imageBox {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+image {
+    height: 100%;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: purple;
+    font-size: 24px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(158, 187, 247, 0.53);
+    transform: scale(0);
+    transition: .3s ease;
+    box-sizing: border-box;
+    padding-top: 6em;
+}
+
+.imageBox:hover .overlay { transform: scale(1) }
+
+
+
+
+/* About Me Page */
+
+.titleDiv {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+}
+.mainBody { padding: 5px; }
+.column {
+    padding: 16px;
+    font-size: 20px;
+    display: inline-block;
+    width: 45%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Table */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(even) { background-color: #dddddd; }
+
+/*Projects page*/
+.titleDiv {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.mainBody { padding: 5px; }
+
+.display {
+    width: 60%;
+    box-shadow: 0.5em 0.5em 0.5em red;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: lightblue;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+ul { list-style: none; }
+
+li::before {
+    content: '\25B6';
+    color: grey;
+}
+
+.myProject { padding: 3em; }
+
+
+/* Contact Me */
+
+.containerForForm body { font-family: Arial, Helvetica, sans-serif; }
+
+.containerForForm input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.containerForForm button[type=submit] {
+    background-color: #4CAF50;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.containerForForm button[type=submit]:hover {
+    background-color: grey;
+    color: #185992;
+    font-size: 20px;
+}
+
+.containerForForm {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+}

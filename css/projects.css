@@ -1,0 +1,29 @@
+.project {
+    width: 100%;
+	height: 1.5em;
+	background-color: grey;
+	font-size: 1.5em;
+	color: white;
+}
+
+.dropdown {
+	float: left;
+	position: absolute;
+	margin-top: 15em;
+	margin-left: 3em;
+}
+.card {
+	float: left;
+	width: 44%;
+	margin-left: 6px;
+	margin-right: 6px;
+
+}
+img {
+	height: 100%;
+	width: 100%;
+}
+
+.clearFloats {
+	clear: both;
+}

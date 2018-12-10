@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background: #01579b;
+}
+
+/* Style the header */
+
+.header {
+    background-color: #9932CC;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the top navigation bar */
+
+.topnav {
+    overflow: hidden;
+    background-color: #A9A9A9;
+    margin-bottom: -15px;
+}
+
+/* Style the topnav links */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #FF0000;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+
+.topnav a:hover {
+    background-color: #F5FFFA;
+    color: #008000;
+    font-size: 20px;
+}
+
+.container {
+    background-color: antiquewhite;
+    width: 700px;
+    margin: 16px auto;
+}
+
+.image_container {
+    margin: auto;
+    animation: zoomAuto 5s;
+}
+
+
+@keyframes zoomAuto {
+    0% { transform: scale(0); }
+
+    30% { transform: scale(0.8); }
+
+    60% { transform: scale(0); }
+
+    100% { transform: scale(1); }
+}
+
+.footer {
+    background-color: #9932CC;
+    padding: 10px;
+    text-align: center;
+}
+.links{
+  margin: 1em;
+  text-align: center;
+}
+
+.links a {
+    display: inline-block;
+    color: #FF0000;
+    font-size: 1.2em;
+    text-align: center;
+  text-decoration: none;
+}
+.links a:hover {
+    background-color: #F5FFFA;
+    color: #008000;
+    font-size: 20px;
+}
